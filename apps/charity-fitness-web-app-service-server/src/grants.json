@@ -1,0 +1,1802 @@
+[
+  {
+    "role": "administrator",
+    "resource": "Session",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Session",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Session",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Session",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Session",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Session",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Session",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Session",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Session",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Session",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Session",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Session",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Session",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Session",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Session",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Session",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Session",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Session",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Session",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Session",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Session",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Session",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Session",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Session",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Session",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Activity",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Activity",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Activity",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Activity",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Activity",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Activity",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Activity",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Activity",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Activity",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Activity",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Activity",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Activity",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Activity",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Activity",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Activity",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Activity",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Activity",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Activity",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Activity",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Activity",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Activity",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Activity",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Activity",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Activity",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Activity",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Venue",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Venue",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Venue",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Venue",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Venue",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Venue",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Venue",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Venue",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Venue",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Venue",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Venue",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Venue",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Venue",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Venue",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Venue",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Venue",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Venue",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Venue",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Venue",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Venue",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Venue",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Venue",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Venue",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Venue",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Venue",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Booking",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Booking",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Booking",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Booking",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Booking",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Booking",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Booking",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Booking",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Booking",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Booking",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Booking",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Booking",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Booking",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Booking",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Booking",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Booking",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Booking",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Booking",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Booking",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Booking",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Booking",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Booking",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Booking",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Booking",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Booking",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Post",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Post",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Post",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Post",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Post",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Post",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Post",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Post",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Post",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Post",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Post",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Post",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Post",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Post",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Post",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Post",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Post",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Post",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Post",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Post",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Post",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Post",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Post",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Post",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Post",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Charity",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Charity",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Charity",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Charity",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Charity",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Charity",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Charity",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Charity",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Charity",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Charity",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Charity",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Charity",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Charity",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Charity",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Charity",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Charity",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Charity",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Charity",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Charity",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Charity",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Charity",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Charity",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Charity",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Charity",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Charity",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Transaction",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Transaction",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Transaction",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Transaction",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Transaction",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Transaction",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Transaction",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Transaction",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Transaction",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Transaction",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Transaction",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Transaction",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Transaction",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Transaction",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Transaction",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Transaction",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Transaction",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Transaction",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Transaction",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Transaction",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Transaction",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Transaction",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Transaction",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Transaction",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Transaction",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Message",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Message",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Message",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Message",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Message",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Message",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Message",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Message",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Message",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Message",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Message",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Message",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Message",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Message",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Message",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Message",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Message",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Message",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Message",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Message",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Message",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Message",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Message",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Message",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Message",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Conversation",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Conversation",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Conversation",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Conversation",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Conversation",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Conversation",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Conversation",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Conversation",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Conversation",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Conversation",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Conversation",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Conversation",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Conversation",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Conversation",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Conversation",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Conversation",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Conversation",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Conversation",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Conversation",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Conversation",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "Conversation",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "Conversation",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "Conversation",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Conversation",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "Conversation",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "ConversationParticipant",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "ConversationParticipant",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "ConversationParticipant",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "ConversationParticipant",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "ConversationParticipant",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "ConversationParticipant",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "ConversationParticipant",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "ConversationParticipant",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "ConversationParticipant",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "ConversationParticipant",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "ConversationParticipant",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "ConversationParticipant",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "ConversationParticipant",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "ConversationParticipant",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "ConversationParticipant",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "ConversationParticipant",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "ConversationParticipant",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "ConversationParticipant",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "ConversationParticipant",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "ConversationParticipant",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "ConversationParticipant",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "ConversationParticipant",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "ConversationParticipant",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "ConversationParticipant",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "ConversationParticipant",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "EntityMedia",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "EntityMedia",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "EntityMedia",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "EntityMedia",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "EntityMedia",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "EntityMedia",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "EntityMedia",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "EntityMedia",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "EntityMedia",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "EntityMedia",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "EntityMedia",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "EntityMedia",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "EntityMedia",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "EntityMedia",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "EntityMedia",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "EntityMedia",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "EntityMedia",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "EntityMedia",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "EntityMedia",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "EntityMedia",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "administrator",
+    "resource": "EntityMedia",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "charityManager",
+    "resource": "EntityMedia",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "coach",
+    "resource": "EntityMedia",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "EntityMedia",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "venueManager",
+    "resource": "EntityMedia",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]
