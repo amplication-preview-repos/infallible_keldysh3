@@ -1,0 +1,193 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DB_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Session {
+  activity        Activity?             @relation(fields: [activityId], references: [id])
+  activityId      String?
+  bookings        Booking[]
+  coach           String?
+  createdAt       DateTime              @default(now())
+  date            DateTime?
+  dayOfWeek       EnumSessionDayOfWeek?
+  endTime         DateTime?
+  id              String                @id @default(cuid())
+  maxParticipants Int?
+  startTime       DateTime?
+  status          EnumSessionStatus?
+  transactions    Transaction[]
+  updatedAt       DateTime              @updatedAt
+  venue           Venue?                @relation(fields: [venueId], references: [id])
+  venueId         String?
+}
+
+model Activity {
+  coach          String?
+  createdAt      DateTime            @default(now())
+  description    String?
+  id             String              @id @default(cuid())
+  image          Json?
+  isDeleted      Boolean?
+  maxParticipant Int?
+  name           String?
+  sessions       Session[]
+  status         EnumActivityStatus?
+  updatedAt      DateTime            @updatedAt
+  venue          Venue?              @relation(fields: [venueId], references: [id])
+  venueId        String?
+}
+
+model Venue {
+  activities  Activity[]
+  createdAt   DateTime   @default(now())
+  description String?
+  id          String     @id @default(cuid())
+  image       Json?
+  name        String?
+  sessions    Session[]
+  updatedAt   DateTime   @updatedAt
+}
+
+model Booking {
+  createdAt DateTime           @default(now())
+  id        String             @id @default(cuid())
+  session   Session?           @relation(fields: [sessionId], references: [id])
+  sessionId String?
+  status    EnumBookingStatus?
+  updatedAt DateTime           @updatedAt
+  user      User?              @relation(fields: [userId], references: [id])
+  userId    String?
+}
+
+model Post {
+  author    String?
+  body      String?
+  createdAt DateTime        @default(now())
+  id        String          @id @default(cuid())
+  image     Json?
+  status    EnumPostStatus?
+  title     String?
+  updatedAt DateTime        @updatedAt
+}
+
+model Charity {
+  address           String?
+  createdAt         DateTime @default(now())
+  description       String?
+  email             String?
+  id                String   @id @default(cuid())
+  image             Json?
+  name              String?
+  phone             String?
+  suggestedDonation Float?
+  updatedAt         DateTime @updatedAt
+  websiteUrl        String?
+}
+
+model Transaction {
+  amount    Float?
+  createdAt DateTime                  @default(now())
+  date      DateTime?
+  id        String                    @id @default(cuid())
+  session   Session?                  @relation(fields: [sessionId], references: [id])
+  sessionId String?
+  status    EnumTransactionStatus?
+  typeField EnumTransactionTypeField?
+  updatedAt DateTime                  @updatedAt
+  user      User?                     @relation(fields: [userId], references: [id])
+  userId    String?
+}
+
+model User {
+  bookings                 Booking[]
+  conversationParticipants ConversationParticipant[]
+  createdAt                DateTime                  @default(now())
+  email                    String?                   @unique
+  firstName                String?
+  id                       String                    @id @default(cuid())
+  lastName                 String?
+  password                 String
+  roles                    Json
+  transactions             Transaction[]
+  updatedAt                DateTime                  @updatedAt
+  username                 String                    @unique
+}
+
+model Message {
+  attachments    Json?
+  content        String?
+  conversation   Conversation? @relation(fields: [conversationId], references: [id])
+  conversationId String?
+  createdAt      DateTime      @default(now())
+  id             String        @id @default(cuid())
+  sender         String?
+  senderUser     String?
+  sentAt         DateTime?
+  updatedAt      DateTime      @updatedAt
+}
+
+model Conversation {
+  conversationParticipants ConversationParticipant[]
+  createdAt                DateTime                  @default(now())
+  id                       String                    @id @default(cuid())
+  messages                 Message[]
+  startedAt                DateTime?
+  title                    String?
+  updatedAt                DateTime                  @updatedAt
+}
+
+model ConversationParticipant {
+  conversation   Conversation? @relation(fields: [conversationId], references: [id])
+  conversationId String?
+  createdAt      DateTime      @default(now())
+  id             String        @id @default(cuid())
+  updatedAt      DateTime      @updatedAt
+  user           User?         @relation(fields: [userId], references: [id])
+  userId         String?
+}
+
+model EntityMedia {
+  createdAt  DateTime                   @default(now())
+  entityId   Int?
+  entityType EnumEntityMediaEntityType?
+  id         String                     @id @default(cuid())
+  mediaUrl   String?
+  updatedAt  DateTime                   @updatedAt
+}
+
+enum EnumSessionDayOfWeek {
+  Option1
+}
+
+enum EnumSessionStatus {
+  Option1
+}
+
+enum EnumActivityStatus {
+  Option1
+}
+
+enum EnumBookingStatus {
+  Option1
+}
+
+enum EnumPostStatus {
+  Option1
+}
+
+enum EnumTransactionStatus {
+  Option1
+}
+
+enum EnumTransactionTypeField {
+  Option1
+}
+
+enum EnumEntityMediaEntityType {
+  Option1
+}
